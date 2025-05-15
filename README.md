@@ -25,6 +25,8 @@
 - [-] Reorganize the complete guide to README.md. 
 
 
+![Illustration](./assets/model_fig_1.jpeg)
+
 # Environment
 
 1. Clone this repository:
