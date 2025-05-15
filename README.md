@@ -41,7 +41,9 @@ pip install -r requirements.txt
 pip install git+https://github.com/resemble-ai/monotonic_align.git
 ```
 
-# Prepare Data
+# Prepare Data Feature
+
+We will provide directly pre-processed data features. 
 
 - Chem dataset
 
