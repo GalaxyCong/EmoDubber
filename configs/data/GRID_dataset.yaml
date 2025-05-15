@@ -1,0 +1,40 @@
+_target_: EmoDubber_Networks.data.text_mel_datamodule.TextMelDataModule
+
+
+# Uesd for Processing
+name: GRID
+
+
+# Input path, re-write here
+train_filelist_path: /data/conggaoxiang/1_16KWav_All/final_TTS/GRID_Phoneme_Train.txt 
+valid_filelist_path: /data/conggaoxiang/1_16KWav_All/final_TTS/GRID_Phoneme_Test.txt 
+lip_embedding_path: /data/conggaoxiang/GRID/GRID_dataset/Grid_Wav_22050_Abs_Feature/extrated_embedding_Grid_152_gray
+Speaker_GE2E_ID_path: /data/conggaoxiang/GRID/Grid_wav_16K_Abs92_SPK92
+GT_SIM_path: /data/conggaoxiang/GRID/Grid_wav_16K_Abs92_Feature/16KGRIDGT_liptext_SIM
+pitch_path: /data/conggaoxiang/GRID/Grid_wav_16K_Abs92_Feature/pitch
+energy_path: /data/conggaoxiang/GRID/Grid_wav_16K_Abs92_Feature/energy
+VA_path: /data/conggaoxiang/GRID/GRID_dataset/Grid_Wav_22050_Abs_Feature/Grid_VA_feature
+
+
+# Fix it
+batch_size: 64 
+num_workers: 20
+pin_memory: False 
+cleaners: [english_cleaners2]
+add_blank: True
+n_spks: 1
+n_fft: 640 
+n_feats: 80
+sample_rate: 16000 
+hop_length: 160 
+win_length: 640 
+f_min: 0
+f_max: 8000
+data_statistics:  
+  mel_mean: 0.0  
+  mel_std: 1.0 
+seed: ${seed}
+load_durations: false
+
+
+

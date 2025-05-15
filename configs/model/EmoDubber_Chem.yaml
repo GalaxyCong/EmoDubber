@@ -1,0 +1,19 @@
+defaults:
+  - _self_
+  - encoder: Chem.yaml
+  - decoder: default.yaml
+  - cfm: default.yaml
+  - optimizer: adam.yaml
+
+
+
+_target_: EmoDubber_Networks.models.EmoDubber.EmoDubber_all
+
+
+n_vocab: 87 
+n_spks: ${data.n_spks}
+spk_emb_dim: 64
+n_feats: 80
+data_statistics: ${data.data_statistics}
+out_size: null 
+prior_loss: true

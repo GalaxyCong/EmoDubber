@@ -1,0 +1,24 @@
+# @package _global_
+
+# to execute this experiment run:
+# python train.py experiment=multispeaker
+
+defaults:
+  - override /data: Chem_dataset.yaml
+
+# all parameters below will be merged with parameters from default configurations set above
+# this allows you to overwrite only specified parameters
+
+# tags: ["ljspeech"] # ignore
+
+# run_name: ljspeech # ignore
+
+tags: ["ljspeech"] # ignore
+
+run_name: Chem_dataset # ignore
+
+
+
+# tags: ["Chem_dataset"]
+
+# run_name: Chem_dataset

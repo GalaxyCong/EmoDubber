@@ -1,0 +1,43 @@
+_target_: EmoDubber_Networks.data.text_mel_datamodule.TextMelDataModule
+
+
+# Uesd for Processing
+name: Chem
+
+
+# Input path, re-write here
+train_filelist_path: /data/conggaoxiang/Chem/Chem_wav22050_feature_OK/16K_Match_TTS/chem_newphoneme_Train.txt 
+valid_filelist_path: /data/conggaoxiang/Chem/Chem_wav22050_feature_OK/16K_Match_TTS/chem_newphoneme_Test.txt
+lip_embedding_path: /data/conggaoxiang/Chem/Chem_wav22050_feature_OK/16K_Match_TTS/HPM_Lip/lipmotion
+Speaker_GE2E_ID_path: /data/conggaoxiang/1_16KWav_All/spk_16K/Chem_16K_SPK/Chem_16K_SPK
+GT_SIM_path: /data/conggaoxiang/Chem/Chem_wav22050_feature_OK/16K_Match_TTS/HPM_Lip/16KChemGT_liptext_SIM
+pitch_path: /data/conggaoxiang/Chem/Chem_wav16_new_feature/pitch
+energy_path: /data/conggaoxiang/Chem/Chem_wav16_new_feature/energy
+VA_path: /data/conggaoxiang/Chem/Chem_wav22050_feature/VA_feature
+
+
+# Fix it
+batch_size: 32 
+num_workers: 20
+pin_memory: False 
+cleaners: [english_cleaners2]
+add_blank: True
+n_spks: 1
+n_fft: 640
+n_feats: 80
+sample_rate: 16000 
+hop_length: 160 
+win_length: 640 
+f_min: 0
+f_max: 8000
+data_statistics: 
+  mel_mean: 0.0
+  mel_std: 1.0
+seed: ${seed}
+load_durations: false
+
+
+
+
+
+
