@@ -26,11 +26,16 @@
 
 
 # Environment
-1. Python >= 3.10
-2. Clone this repository:
+
+1. Clone this repository:
 ```bash
 git clone https://github.com/GalaxyCong/EmoDubber.git
 cd EmoDubber
+```
+2. Create an environment
+```bash
+conda create -n emodub python=3.10 -y
+conda activate emodub
 ```
 3. Install python requirements: 
 ```bash
