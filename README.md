@@ -21,7 +21,7 @@
 - [-] Upload pre-processed dataset features to Baidu Cloud and Google Cloud. 
 - [-] Release EmoDubber's emotion controlling code (Emotion Fuction). 
 - [-] Release all model checkpoint to inference. 
-- [-] Provide metrics Testing Scripts (LSE-C, LSE-D, SECS, WER, MCD). 
+- [-] Provide metrics testing scripts (LSE-C, LSE-D, SECS, WER, MCD). 
 - [-] Reorganize the complete guide to README.md. 
 
 
