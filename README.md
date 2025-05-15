@@ -77,8 +77,8 @@ Baidu Drive, Google Drive
 
 # Inference 
 
-Download our 16k Hz Vocoder for EmoDubber and save it to the ```Vocoder_16KHz``` folder (ie, keep the same level as ```config.json```). 
-Please note that the 16K Hz Vocoder is still based on HiFi-GAN, this is just for a fair comparison, we also agree to use the more advanced BigVGAN-V2 or Vocos if you need. 
+Download our [16k Hz Vocoder](wait) for EmoDubber and save it to the ```Vocoder_16KHz``` folder (ie, keep the same level as ```config.json```). 
+Please note that the 16K Hz Vocoder is still based on HiFi-GAN, this is just for a fair comparison, we also agree to use the more advanced [BigVGAN-V2.x](https://github.com/NVIDIA/BigVGAN) or [Vocos](https://github.com/gemelo-ai/vocos) if you need. 
 
 Then, please run directly for inference (stay in the root directory): 
 ```bash
