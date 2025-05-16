@@ -6,8 +6,8 @@ name: GRID
 
 
 # Input path, re-write here
-train_filelist_path: ../Data_and_Feature_GRID/GRID_Phoneme_Train.txt
-valid_filelist_path: ../Data_and_Feature_GRID/GRID_Phoneme_Test.txt
+train_filelist_path: ../Data_and_Feature_GRID/GRID_Phoneme_Train.txt  # Note that in txt file, the audio path inside should also be replaced with your own
+valid_filelist_path: ../Data_and_Feature_GRID/GRID_Phoneme_Test.txt  # Note that in txt file, the audio path inside should also be replaced with your own
 lip_embedding_path: ../Data_and_Feature_GRID/extrated_embedding_Grid_152_gray
 Speaker_GE2E_ID_path: ../Data_and_Feature_GRID/Grid_16K_SPK
 GT_SIM_path: ../Data_and_Feature_GRID/16KGRIDGT_liptext_SIM
