@@ -6,14 +6,14 @@ name: GRID
 
 
 # Input path, re-write here
-train_filelist_path: /data/conggaoxiang/1_16KWav_All/final_TTS/GRID_Phoneme_Train.txt 
-valid_filelist_path: /data/conggaoxiang/1_16KWav_All/final_TTS/GRID_Phoneme_Test.txt 
-lip_embedding_path: /data/conggaoxiang/GRID/GRID_dataset/Grid_Wav_22050_Abs_Feature/extrated_embedding_Grid_152_gray
-Speaker_GE2E_ID_path: /data/conggaoxiang/GRID/Grid_wav_16K_Abs92_SPK92
-GT_SIM_path: /data/conggaoxiang/GRID/Grid_wav_16K_Abs92_Feature/16KGRIDGT_liptext_SIM
-pitch_path: /data/conggaoxiang/GRID/Grid_wav_16K_Abs92_Feature/pitch
-energy_path: /data/conggaoxiang/GRID/Grid_wav_16K_Abs92_Feature/energy
-VA_path: /data/conggaoxiang/GRID/GRID_dataset/Grid_Wav_22050_Abs_Feature/Grid_VA_feature
+train_filelist_path: ../Data_and_Feature_GRID/GRID_Phoneme_Train.txt
+valid_filelist_path: ../Data_and_Feature_GRID/GRID_Phoneme_Test.txt
+lip_embedding_path: ../Data_and_Feature_GRID/extrated_embedding_Grid_152_gray
+Speaker_GE2E_ID_path: ../Data_and_Feature_GRID/Grid_16K_SPK
+GT_SIM_path: ../Data_and_Feature_GRID/16KGRIDGT_liptext_SIM
+pitch_path: ../Data_and_Feature_GRID/pitch
+energy_path: ../Data_and_Feature_GRID/energy
+VA_path: ../Data_and_Feature_GRID/Grid_VA_feature
 
 
 # Fix it
