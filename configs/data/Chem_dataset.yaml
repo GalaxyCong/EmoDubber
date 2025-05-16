@@ -6,14 +6,14 @@ name: Chem
 
 
 # Input path, re-write here
-train_filelist_path: /data/conggaoxiang/Chem/Chem_wav22050_feature_OK/16K_Match_TTS/chem_newphoneme_Train.txt 
-valid_filelist_path: /data/conggaoxiang/Chem/Chem_wav22050_feature_OK/16K_Match_TTS/chem_newphoneme_Test.txt
-lip_embedding_path: /data/conggaoxiang/Chem/Chem_wav22050_feature_OK/16K_Match_TTS/HPM_Lip/lipmotion
-Speaker_GE2E_ID_path: /data/conggaoxiang/1_16KWav_All/spk_16K/Chem_16K_SPK/Chem_16K_SPK
-GT_SIM_path: /data/conggaoxiang/Chem/Chem_wav22050_feature_OK/16K_Match_TTS/HPM_Lip/16KChemGT_liptext_SIM
-pitch_path: /data/conggaoxiang/Chem/Chem_wav16_new_feature/pitch
-energy_path: /data/conggaoxiang/Chem/Chem_wav16_new_feature/energy
-VA_path: /data/conggaoxiang/Chem/Chem_wav22050_feature/VA_feature
+train_filelist_path: ../Data_and_Feature_Chem/chem_newphoneme_Train.txt  # Note that in this txt file, the audio path inside should also be replaced with your own
+valid_filelist_path: ../Data_and_Feature_Chem/chem_newphoneme_Test.txt  # Note that in this txt file, the audio path inside should also be replaced with your own
+lip_embedding_path: ../Data_and_Feature_Chem/lipmotion
+Speaker_GE2E_ID_path: ../Data_and_Feature_Chem/Chem_16K_SPK
+GT_SIM_path: ../Data_and_Feature_Chem/16KChemGT_liptext_SIM
+pitch_path: ../Data_and_Feature_Chem/pitch
+energy_path: ../Data_and_Feature_Chem/energy
+VA_path: ../Data_and_Feature_Chem/VA_feature
 
 
 # Fix it
