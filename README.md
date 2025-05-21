@@ -57,13 +57,13 @@ We will provide directly pre-processed data features.
 - Chem 16KHz Raw Audio: [Google Drive](https://drive.google.com/file/d/1gPwUePAkJFZJ5Xm7YrOuxCQN5NIbG5iF/view?usp=sharing)
 
 
-- Chem Prosessed Feature: Google Drive
+- Chem Prosessed Feature: [Google Drive](https://drive.google.com/file/d/1xwx5cD8t24JPu3_t-Rqwreg0iH6rj5a1/view?usp=sharing)
 
 
 
 ## GRID
 
-- GRID 16KHz Raw Audio: Google Drive
+- GRID 16KHz Raw Audio: [Google Drive](https://drive.google.com/file/d/1V0wyhmEKwB4N58w0GO4AX9WSLFLn86LE/view?usp=sharing)
 
 - GRID Prosessed Feature: Google Drive
 
