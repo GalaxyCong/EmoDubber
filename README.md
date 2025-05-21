@@ -63,7 +63,7 @@ Baidu Drive, Google Drive
 # Train Your Own Model
 
 1. Download the desired data features, and check whether the path is correct in train_filelist_path, valid_filelist_path, ...., and GT_SIM_path, etc., (see ```configs/data/Chem_dataset.yaml``` and ```configs/data/GRID_dataset```).
-2. Download [TTS_model.ckpt]() and save it in ```Pretrained_TTSmodel``` folder
+2. Download [TTS_model.ckpt](https://drive.google.com/file/d/14NbtYF07fKxw13MQJfhtD2NwizRpJFY5/view?usp=sharing) and save it in ```Pretrained_TTSmodel``` folder
 3. Finally, please stay in the root directory of the project, and run directly: 
 ```bash
 python EmoDubber_Networks/Train_EmoDubber_Chem16K.py
