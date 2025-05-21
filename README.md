@@ -62,8 +62,9 @@ Baidu Drive, Google Drive
 
 # Train Your Own Model
 
-After downloading the data features, check whether the path is correct in train_filelist_path, valid_filelist_path, ...., and GT_SIM_path, etc., (see ```configs/data/Chem_dataset.yaml``` and ```configs/data/GRID_dataset```).   
-Then, please stay in the root directory of the project, and run directly: 
+1. Download the desired data features, and check whether the path is correct in train_filelist_path, valid_filelist_path, ...., and GT_SIM_path, etc., (see ```configs/data/Chem_dataset.yaml``` and ```configs/data/GRID_dataset```).
+2. Download [TTS_model.ckpt]() and save it in ```Pretrained_TTSmodel``` folder
+3. Finally, please stay in the root directory of the project, and run directly: 
 ```bash
 python EmoDubber_Networks/Train_EmoDubber_Chem16K.py
 ```
@@ -79,8 +80,8 @@ Baidu Drive, Google Drive
 
 # Inference 
 
-Download our [16k Hz Vocoder](wait) for EmoDubber and save it to the ```Vocoder_16KHz``` folder (ie, keep the same level as ```config.json```). 
-Please note that the 16K Hz Vocoder is still based on HiFi-GAN, this is just for a fair comparison, we also agree to use the more advanced [BigVGAN-V2.x](https://github.com/NVIDIA/BigVGAN) or [Vocos](https://github.com/gemelo-ai/vocos) if you need. 
+Download our [16k Hz Vocoder](https://drive.google.com/file/d/1XXCSYbIEjePcWT8jNwSWeLlIQf0M-2pp/view?usp=sharing) to equip EmoDubber and save it to the ```Vocoder_16KHz``` folder (ie, keep the same level as ```config.json```). 
+
 
 Then, please run directly for inference (stay in the root directory): 
 ```bash
