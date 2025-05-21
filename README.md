@@ -65,7 +65,7 @@ We will provide directly pre-processed data features.
 
 - GRID 16KHz Raw Audio: [Google Drive](https://drive.google.com/file/d/1V0wyhmEKwB4N58w0GO4AX9WSLFLn86LE/view?usp=sharing)
 
-- GRID Prosessed Feature: Google Drive
+- GRID Prosessed Feature: Google Drive ....
 
 
 
