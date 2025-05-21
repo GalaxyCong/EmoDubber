@@ -52,13 +52,22 @@ pip install git+https://github.com/resemble-ai/monotonic_align.git
 
 We will provide directly pre-processed data features. 
 
-- Chem dataset
+## Chem 
 
-Baidu Drive, Google Drive
+- Chem 16KHz Raw Audio: [Google Drive](https://drive.google.com/file/d/1gPwUePAkJFZJ5Xm7YrOuxCQN5NIbG5iF/view?usp=sharing)
 
-- GRID dataset
 
-Baidu Drive, Google Drive
+- Chem Prosessed Feature: Google Drive
+
+
+
+## GRID
+
+- GRID 16KHz Raw Audio: Google Drive
+
+- GRID Prosessed Feature: Google Drive
+
+
 
 # Train Your Own Model
 
