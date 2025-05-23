@@ -54,17 +54,17 @@ We will provide directly pre-processed data features.
 
 ## Chem 
 
-- Chem 16KHz Raw Audio: [Google Drive](https://drive.google.com/file/d/1gPwUePAkJFZJ5Xm7YrOuxCQN5NIbG5iF/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/1RD7gzSs3XeimTJVJOkkjxA)(erap)
+- Chem 16KHz Raw Audio: [Google Drive](https://drive.google.com/file/d/1gPwUePAkJFZJ5Xm7YrOuxCQN5NIbG5iF/view?usp=sharing) || [Baidu Drive](https://pan.baidu.com/s/1RD7gzSs3XeimTJVJOkkjxA)(erap)
 
 
-- Chem Prosessed Feature: [Google Drive](https://drive.google.com/file/d/1xwx5cD8t24JPu3_t-Rqwreg0iH6rj5a1/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/198s3QM_Fi47kCPe6umzxyA)(nriv)
+- Chem Prosessed Feature: [Google Drive](https://drive.google.com/file/d/1xwx5cD8t24JPu3_t-Rqwreg0iH6rj5a1/view?usp=sharing) || [Baidu Drive](https://pan.baidu.com/s/198s3QM_Fi47kCPe6umzxyA)(nriv)
 
 
 ## GRID
 
-- GRID 16KHz Raw Audio: [Google Drive](https://drive.google.com/file/d/1V0wyhmEKwB4N58w0GO4AX9WSLFLn86LE/view?usp=sharing), [Baidu Drive](https://pan.baidu.com/s/174hmeiareDW51IG_a58AFg)(xikd)
+- GRID 16KHz Raw Audio: [Google Drive](https://drive.google.com/file/d/1V0wyhmEKwB4N58w0GO4AX9WSLFLn86LE/view?usp=sharing) || [Baidu Drive](https://pan.baidu.com/s/174hmeiareDW51IG_a58AFg)(xikd)
 
-- GRID Prosessed Feature: Google Drive ...., [Baidu Drive](https://pan.baidu.com/s/1vpoaiXfYnu5RPmu3OKmkew)(cbdy)
+- GRID Prosessed Feature: Google Drive .... || [Baidu Drive](https://pan.baidu.com/s/1vpoaiXfYnu5RPmu3OKmkew)(cbdy)
 
 
 
