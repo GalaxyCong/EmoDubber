@@ -18,11 +18,10 @@
 
 # 🗒 TODO List
 - [✓] Release EmoDubber's training and inference code (Basic Fuction).
-- [-] Upload pre-processed dataset features to Baidu Cloud and Google Cloud. 
+- [✓] Upload pre-processed dataset features to Baidu Cloud and Google Cloud. 
+- [-] Release all model (Basic Fuction) checkpoint to inference waveform. (Before 6/1/2025)
 - [-] Release EmoDubber's emotion controlling code (Emotion Fuction). 
-- [-] Release all model checkpoint to inference. 
 - [-] Provide metrics testing scripts (LSE-C, LSE-D, SECS, WER, MCD). 
-- [-] Reorganize the complete guide to README.md. 
 
 
 ![Illustration](./assets/model_fig_1.jpeg)
@@ -65,7 +64,7 @@ We will provide directly pre-processed data features.
 
 - GRID 16KHz Raw Audio: [Google Drive](https://drive.google.com/file/d/1V0wyhmEKwB4N58w0GO4AX9WSLFLn86LE/view?usp=sharing) || [Baidu Drive](https://pan.baidu.com/s/174hmeiareDW51IG_a58AFg)(xikd)
 
-- GRID Prosessed Feature: Google Drive .... || [Baidu Drive](https://pan.baidu.com/s/1vpoaiXfYnu5RPmu3OKmkew)(cbdy)
+- GRID Prosessed Feature: [Google Drive](https://drive.google.com/file/d/13h_htzQwZfZDEtfQ6BF-Y-99uAiSxyEA/view?usp=sharing) || [Baidu Drive](https://pan.baidu.com/s/1vpoaiXfYnu5RPmu3OKmkew)(cbdy)
 
 
 
