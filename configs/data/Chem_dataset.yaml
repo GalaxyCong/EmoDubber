@@ -1,0 +1,43 @@
+_target_: EmoDubber_Networks.data.text_mel_datamodule.TextMelDataModule
+
+
+# Uesd for Processing
+name: Chem
+
+
+# Input path, re-write here
+train_filelist_path: ../Data_and_Feature_Chem/chem_newphoneme_Train.txt  # Note that in this txt file, the audio path inside should also be replaced with your own
+valid_filelist_path: ../Data_and_Feature_Chem/chem_newphoneme_Test.txt  # Note that in this txt file, the audio path inside should also be replaced with your own
+lip_embedding_path: ../Data_and_Feature_Chem/lipmotion
+Speaker_GE2E_ID_path: ../Data_and_Feature_Chem/Chem_16K_SPK
+GT_SIM_path: ../Data_and_Feature_Chem/16KChemGT_liptext_SIM
+pitch_path: ../Data_and_Feature_Chem/pitch
+energy_path: ../Data_and_Feature_Chem/energy
+VA_path: ../Data_and_Feature_Chem/VA_feature
+
+
+# Fix it
+batch_size: 32 
+num_workers: 20
+pin_memory: False 
+cleaners: [english_cleaners2]
+add_blank: True
+n_spks: 1
+n_fft: 640
+n_feats: 80
+sample_rate: 16000 
+hop_length: 160 
+win_length: 640 
+f_min: 0
+f_max: 8000
+data_statistics: 
+  mel_mean: -6.292558193206787 
+  mel_std: 2.0993223190307617 
+seed: ${seed}
+load_durations: false
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+_target_: EmoDubber_Networks.data.text_mel_datamodule.TextMelDataModule
+
+
+# Uesd for Processing
+name: GRID
+
+
+# Input path, re-write here
+train_filelist_path: ../Data_and_Feature_GRID/GRID_Phoneme_Train.txt  # Note that in txt file, the audio path inside should also be replaced with your own
+valid_filelist_path: ../Data_and_Feature_GRID/GRID_Phoneme_Test.txt  # Note that in txt file, the audio path inside should also be replaced with your own
+lip_embedding_path: ../Data_and_Feature_GRID/extrated_embedding_Grid_152_gray
+Speaker_GE2E_ID_path: ../Data_and_Feature_GRID/Grid_16K_SPK
+GT_SIM_path: ../Data_and_Feature_GRID/16KGRIDGT_liptext_SIM
+pitch_path: ../Data_and_Feature_GRID/pitch
+energy_path: ../Data_and_Feature_GRID/energy
+VA_path: ../Data_and_Feature_GRID/Grid_VA_feature
+
+
+
+# Fix it
+batch_size: 64 
+num_workers: 20
+pin_memory: False 
+cleaners: [english_cleaners2]
+add_blank: True
+n_spks: 1
+n_fft: 640 
+n_feats: 80
+sample_rate: 16000 
+hop_length: 160 
+win_length: 640 
+f_min: 0
+f_max: 8000
+data_statistics:  
+  mel_mean: 0.0  
+  mel_std: 1.0 
+seed: ${seed}
+load_durations: false
+
+
+

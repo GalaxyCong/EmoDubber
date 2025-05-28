@@ -1,0 +1,37 @@
+encoder_type: RoPE Encoder
+
+
+encoder_params:
+  n_feats: ${model.n_feats}
+  n_channels: 256 
+  filter_channels: 768 
+  filter_channels_dp: 256 
+  n_heads: 2 
+  n_layers: 16 
+  kernel_size: 3
+  p_dropout: 0.1
+  spk_emb_dim: 64
+  n_spks: 1
+  prenet: true
+
+VarianceAdaptor:
+  NameforStats: Chem
+
+
+Mel_transformer:
+  decoder_layer: 16
+  decoder_head: 1
+  decoder_hidden: 256
+  conv_filter_size: 1024
+  conv_kernel_size: [9, 1] 
+  decoder_dropout: 0.2
+  max_seq_len: 3000
+
+
+
+mel_upsample: [2, 2]
+
+duration_predictor_params:
+  filter_channels_dp: ${model.encoder.encoder_params.filter_channels_dp}
+  kernel_size: 3
+  p_dropout: ${model.encoder.encoder_params.p_dropout}
