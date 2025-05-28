@@ -19,7 +19,7 @@
 # 🗒 TODO List
 - [✓] Release EmoDubber's training and inference code (Basic Fuction).
 - [✓] Upload pre-processed dataset features to Baidu Cloud and Google Cloud. 
-- [-] Release all model (Basic Fuction) checkpoint to inference waveform. (Before 6/1/2025)
+- [-] Release model checkpoint (Basic Fuction) to inference waveform. (Before 6/1/2025)
 - [-] Release EmoDubber's emotion controlling code (Emotion Fuction). 
 - [-] Provide metrics testing scripts (LSE-C, LSE-D, SECS, WER, MCD). 
 
