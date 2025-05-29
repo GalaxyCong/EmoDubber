@@ -76,7 +76,7 @@ When inferencing, only Prosessed Features are needed.
 # Train Your Own Model
 
 1. Ensure input path is correct (see ```configs/data/Chem_dataset.yaml``` or ```configs/data/GRID_dataset```).
-2. Download [TTS_model.ckpt](https://drive.google.com/file/d/14NbtYF07fKxw13MQJfhtD2NwizRpJFY5/view?usp=sharing)(pretraining on LibriTTS-clean-100 dataset) and save it in ```Pretrained_TTSmodel``` folder
+2. Download [TTS_model.ckpt](https://drive.google.com/file/d/14NbtYF07fKxw13MQJfhtD2NwizRpJFY5/view?usp=sharing) (pretraining on LibriTTS-clean-100 dataset) and save it in ```Pretrained_TTSmodel``` folder
 3. Finally, please stay in root directory, and run directly: 
 ```bash
 python EmoDubber_Networks/Train_EmoDubber_Chem16K.py
