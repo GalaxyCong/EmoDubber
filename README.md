@@ -75,9 +75,9 @@ When inferencing, only Prosessed Features are needed.
 
 # Train Your Own Model
 
-1. Download the desired data features, and check whether the path is correct in train_filelist_path, valid_filelist_path, ...., and GT_SIM_path, etc., (see ```configs/data/Chem_dataset.yaml``` and ```configs/data/GRID_dataset```).
+1. Ensure input path is correct (see ```configs/data/Chem_dataset.yaml``` or ```configs/data/GRID_dataset```).
 2. Download [TTS_model.ckpt](https://drive.google.com/file/d/14NbtYF07fKxw13MQJfhtD2NwizRpJFY5/view?usp=sharing) and save it in ```Pretrained_TTSmodel``` folder
-3. Finally, please stay in the root directory of the project, and run directly: 
+3. Finally, please stay in root directory, and run directly: 
 ```bash
 python EmoDubber_Networks/Train_EmoDubber_Chem16K.py
 ```
@@ -98,7 +98,7 @@ Baidu Drive, Google Drive
 Download our [16k Hz Vocoder](https://drive.google.com/file/d/1XXCSYbIEjePcWT8jNwSWeLlIQf0M-2pp/view?usp=sharing) to equip EmoDubber and save it to the ```Vocoder_16KHz``` folder (ie, keep the same level as ```config.json```). 
 
 
-Then, please run directly for inference (stay in the root directory): 
+Then, please run directly for inference (stay in root): 
 ```bash
 python EmoDubber_Networks/Inference_Chem_Unbatch_New.py --checkpoint_path "-path" --vocoder_checkpoint_path "-path" --Val_list "-path" --Silent_Lip "-path" --Silent_Face "-path" --Refence_audio "-path"
 ```
