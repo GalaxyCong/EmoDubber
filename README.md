@@ -46,8 +46,8 @@ pip install -r requirements.txt
 ```bash
 pip install git+https://github.com/resemble-ai/monotonic_align.git
 ```
-5. Final step. Download [trainer.py](https://drive.google.com/file/d/1pfMlL22zz8xDcLYtN_cUTp8lMUquN4zD/view?usp=sharing) and replace your ```anaconda3/envs/emodub/lib/python3.10/site-packages/lightning/pytorch/trainer/trainer.py```;  
-Download [checkpoint_connector.py](https://drive.google.com/file/d/1KkLOEsmG82znIHOIN0iHEfqR6ZyLY8yb/view?usp=sharing) and replace your ```anaconda3/envs/emodub/lib/python3.10/site-packages/lightning/pytorch/trainer/connectors/checkpoint_connector.py```
+5. Final step. Download [trainer.py](https://drive.google.com/file/d/1pfMlL22zz8xDcLYtN_cUTp8lMUquN4zD/view?usp=sharing) to replace your ```anaconda3/envs/emodub/lib/python3.10/site-packages/lightning/pytorch/trainer/trainer.py```;  
+Download [checkpoint_connector.py](https://drive.google.com/file/d/1KkLOEsmG82znIHOIN0iHEfqR6ZyLY8yb/view?usp=sharing) to replace your ```anaconda3/envs/emodub/lib/python3.10/site-packages/lightning/pytorch/trainer/connectors/checkpoint_connector.py```
 
 (Note: Step5 is to prevent the error of Missing key(s) in state_dict (TTS_model.ckpt >> EmoDubber_all). I avoid this problem by setting "strict=False" in torch lightning.)
 
@@ -95,15 +95,14 @@ Baidu Drive, Google Drive
 
 # Inference 
 
-Download our [16k Hz Vocoder](https://drive.google.com/file/d/1XXCSYbIEjePcWT8jNwSWeLlIQf0M-2pp/view?usp=sharing) to equip EmoDubber and save it to the ```Vocoder_16KHz``` folder (ie, keep the same level as ```config.json```). 
+1. Download EmoDubber's [16k Hz Vocoder](https://drive.google.com/file/d/1XXCSYbIEjePcWT8jNwSWeLlIQf0M-2pp/view?usp=sharing) and save it to ```Vocoder_16KHz``` folder. (--vocoder_checkpoint_path "-path")
 
 
-Then, please run directly for inference (stay in root): 
+2. Run script for inference (stay in root): 
 ```bash
 python EmoDubber_Networks/Inference_Chem_Unbatch_New.py --checkpoint_path "-path" --vocoder_checkpoint_path "-path" --Val_list "-path" --Silent_Lip "-path" --Silent_Face "-path" --Refence_audio "-path"
 ```
 
-or
 
 ```bash
 python EmoDubber_Networks/Inference_GRID_Unbatch_New.py --checkpoint_path "-path" --vocoder_checkpoint_path "-path" --Val_list "-path" --Silent_Lip "-path" --Silent_Face "-path" --Refence_audio "-path"
