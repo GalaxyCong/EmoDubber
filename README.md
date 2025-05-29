@@ -54,7 +54,8 @@ Download [checkpoint_connector.py](https://drive.google.com/file/d/1KkLOEsmG82zn
 
 # Prepare Data Feature
 
-We will provide directly pre-processed data features. 
+When performing training, both Raw Audio and Prosessed Features need to be downloaded. 
+When inferencing, only Prosessed Features are needed. 
 
 ## Chem 
 
@@ -87,6 +88,8 @@ python EmoDubber_Networks/Train_EmoDubber_GRID16K.py
 
 
 # Our Checkpoints
+
+We will provide our Checkpoints. 
 
 Baidu Drive, Google Drive
 
