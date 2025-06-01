@@ -19,7 +19,7 @@
 # 🗒 TODO List
 - [✓] Release EmoDubber's training and inference code (Basic Fuction). (Fixed on 5/27/2025)
 - [✓] Upload pre-processed dataset features to Baidu Cloud and Google Cloud. (Done 5/27/2025)
-- [-] Release model checkpoint (Basic Fuction) to inference waveform. (Before 6/1/2025)
+- [✓] Release model checkpoint (Basic Fuction) to inference waveform. (Before 6/1/2025)
 - [-] Release EmoDubber's emotion controlling code (Emotion Fuction). 
 - [-] Provide metrics testing scripts (LSE-C, LSE-D, SECS, WER, MCD). 
 
@@ -125,7 +125,15 @@ Under construction
 
 ## Training emotional expert classifier
 
+We provide all checkpoints. 
 
+Five types of emotions (recommend): https://drive.google.com/drive/folders/1vSVTAkZsoinSlYgeVCvBXs5V2k-gIurV?usp=sharing
+
+
+Seven types of emotions (recommend): https://drive.google.com/drive/folders/1h0Y1TChA9vgX3_6u5GUrJK69n0rgKTRU?usp=sharing
+
+
+Seven types of emotions with unemotional data augmentation: https://drive.google.com/drive/folders/1DuhQYe5FuowHBRMOFRhthrvPJBlfK_5E?usp=sharing
 
 
 Under construction
