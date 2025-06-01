@@ -125,7 +125,7 @@ Under construction
 
 ## Training emotional expert classifier
 
-We provide all checkpoints. 
+We provide all checkpoints. Below is the checkpoint of our emotional expert classifier. 
 
 Five types of emotions (recommend): https://drive.google.com/drive/folders/1vSVTAkZsoinSlYgeVCvBXs5V2k-gIurV?usp=sharing
 
@@ -135,6 +135,8 @@ Seven types of emotions (recommend): https://drive.google.com/drive/folders/1h0Y
 
 Seven types of emotions with unemotional data augmentation: https://drive.google.com/drive/folders/1DuhQYe5FuowHBRMOFRhthrvPJBlfK_5E?usp=sharing
 
+
+## Inference 
 
 Under construction
 
