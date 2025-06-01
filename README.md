@@ -89,7 +89,7 @@ python EmoDubber_Networks/Train_EmoDubber_GRID16K.py
 
 # Our Checkpoints
 
-We provide our Checkpoints. 
+We provide our checkpoints. 
 
 ## Checkpoints on Chem dataset
 
