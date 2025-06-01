@@ -89,9 +89,19 @@ python EmoDubber_Networks/Train_EmoDubber_GRID16K.py
 
 # Our Checkpoints
 
-We will provide our Checkpoints. 
+We provide our Checkpoints. 
 
-Baidu Drive, Google Drive
+## Checkpoints on Chem dataset
+
+- [Google Drive](https://drive.google.com/file/d/1CqTZU98xmHMy9C9Q0gFHvGyaZjUifizO/view?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/1M6anLZ7DUMRvVGapwJ2aaQ)(sxus)
+
+
+
+## Checkpoints on GRID dataset
+
+- [Google Drive](https://drive.google.com/file/d/1RRf--kPzldhHro6jbauh2sP29iphIh-h/view?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/1_7Orv8ccIxa_WlZD--GR6Q)(hv9t)
+
+
 
 # Inference 
 
