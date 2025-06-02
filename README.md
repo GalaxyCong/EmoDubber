@@ -133,13 +133,13 @@ Under construction
 
 We provide all checkpoints. Below is the checkpoint of our emotional expert classifier. 
 
-Five types of emotions (recommend): https://drive.google.com/drive/folders/1vSVTAkZsoinSlYgeVCvBXs5V2k-gIurV?usp=sharing
+👉 Five types of emotions (Recommendation): https://drive.google.com/drive/folders/1vSVTAkZsoinSlYgeVCvBXs5V2k-gIurV?usp=sharing
 
 
-Seven types of emotions (recommend): https://drive.google.com/drive/folders/1h0Y1TChA9vgX3_6u5GUrJK69n0rgKTRU?usp=sharing
+👉 Seven types of emotions (Recommendation): https://drive.google.com/drive/folders/1h0Y1TChA9vgX3_6u5GUrJK69n0rgKTRU?usp=sharing
 
 
-Seven types of emotions with unemotional data augmentation: https://drive.google.com/drive/folders/1DuhQYe5FuowHBRMOFRhthrvPJBlfK_5E?usp=sharing
+Seven types of emotions with emotionless data augmentation: https://drive.google.com/drive/folders/1DuhQYe5FuowHBRMOFRhthrvPJBlfK_5E?usp=sharing
 
 
 ## Inference 
