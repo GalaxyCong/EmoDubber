@@ -46,10 +46,10 @@ pip install -r requirements.txt
 ```bash
 pip install git+https://github.com/resemble-ai/monotonic_align.git
 ```
-5. Last step. Download [trainer.py](https://drive.google.com/file/d/1pfMlL22zz8xDcLYtN_cUTp8lMUquN4zD/view?usp=sharing) to replace your ```anaconda3/envs/emodub/lib/python3.10/site-packages/lightning/pytorch/trainer/trainer.py```;  
+5. Last step (Option). Download [trainer.py](https://drive.google.com/file/d/1pfMlL22zz8xDcLYtN_cUTp8lMUquN4zD/view?usp=sharing) to replace your ```anaconda3/envs/emodub/lib/python3.10/site-packages/lightning/pytorch/trainer/trainer.py```;  
 Download [checkpoint_connector.py](https://drive.google.com/file/d/1KkLOEsmG82znIHOIN0iHEfqR6ZyLY8yb/view?usp=sharing) to replace your ```anaconda3/envs/emodub/lib/python3.10/site-packages/lightning/pytorch/trainer/connectors/checkpoint_connector.py```
 
-(Note: Step5 is to prevent the error of Missing key(s) in state_dict (TTS_model.ckpt >> EmoDubber_all). I avoid this problem by setting "strict=False" in torch lightning.)
+(Note: If you want to re-train EmoDubber, step 5 is required. If you only want to do inference, please ignore it. Step5 is used to prevent the error of Missing key(s) in state_dict (TTS_model.ckpt >> EmoDubber_all).  I avoid this problem by setting "strict=False" in torch lightning.)
 
 
 # Prepare Data Feature
