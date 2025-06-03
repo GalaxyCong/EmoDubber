@@ -146,7 +146,7 @@ python EmoDubber_Networks/Inference_Chem_Unbatch_New_S2.py \
 - `Silent_Lip`: Path to lip-motion. Equal to `lip_embedding_path` in `./configs/data/*.yaml`. 
 - `Silent_Face`: Path to face feature. Equal to `VA_path` in `./configs/data/*.yaml`. 
 - `Refence_audio`: Path to reference audio feature. Equal to `Speaker_GE2E_ID_path` in `./configs/data/*.yaml`. 
-- `Set2_list`: Path to txt script of setting2, requried in running `Inference_Chem_Unbatch_New_S2.py` or `Inference_GRID_Unbatch_New_S2.py`. 
+- `Set2_list`: Path to txt script of setting2, requried in running `Inference_Chem_Unbatch_New_S2.py` or `Inference_GRID_Unbatch_New_S2.py`. The intention is not to use the target audio as reference audio, the reference audio should come from another clip. You can download [here](https://drive.google.com/drive/folders/1xYAwNrpDpER73v28o86NpC2GzgAhduiy?usp=sharing). 
 
 
 
