@@ -142,10 +142,10 @@ python EmoDubber_Networks/Inference_Chem_Unbatch_New_S2.py \
 ### Arguments
 - `checkpoint_path`: Path to the directory containing checkpoint files. We have provided our checkpoints. 
 - `vocoder_checkpoint_path`: Path to the vocoder that matches EmoDubber. Default in ```Vocoder_16KHz``` folder. 
-- `Val_list`: Path to txt script. 
-- `Silent_Lip`: Path to lip-motion. 
-- `Silent_Face`: Path to face feature. 
-- `Refence_audio`: Path to reference audio feature. 
+- `Val_list`: Path to txt script.  Equal to `valid_filelist_path` in `./configs/data/*.yaml`. 
+- `Silent_Lip`: Path to lip-motion. Equal to `lip_embedding_path` in `./configs/data/*.yaml`. 
+- `Silent_Face`: Path to face feature. Equal to `VA_path` in `./configs/data/*.yaml`. 
+- `Refence_audio`: Path to reference audio feature. Equal to `Speaker_GE2E_ID_path` in `./configs/data/*.yaml`. 
 - `Set2_list`: Path to txt script of setting2, requried in `Inference_Chem_Unbatch_New_S2.py` or `Inference_GRID_Unbatch_New_S2.py`. 
 
 
