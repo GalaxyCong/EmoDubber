@@ -109,20 +109,44 @@ The links are given below:
 
 
 
-# Inference 
+# Inference
 
 1. Download EmoDubber's [16k Hz Vocoder](https://drive.google.com/file/d/1XXCSYbIEjePcWT8jNwSWeLlIQf0M-2pp/view?usp=sharing) and save it to ```Vocoder_16KHz``` folder. (--vocoder_checkpoint_path "-path")
 
 
 2. Run script for inference (stay in root): 
-```bash
-python EmoDubber_Networks/Inference_Chem_Unbatch_New.py --checkpoint_path "-path" --vocoder_checkpoint_path "-path" --Val_list "-path" --Silent_Lip "-path" --Silent_Face "-path" --Refence_audio "-path"
+
+For main setting1: 
+```Shell
+python EmoDubber_Networks/Inference_Chem_Unbatch_New_S1.py \
+    --checkpoint_path [model_dir] \
+    --vocoder_checkpoint_path [vocoder_dir] \
+    --Val_list [script_dir] \
+    --Silent_Lip [lip_dir]  \
+    --Silent_Face [face_dir] \
+    --Refence_audio [reference_dir] \
 ```
 
-
-```bash
-python EmoDubber_Networks/Inference_GRID_Unbatch_New.py --checkpoint_path "-path" --vocoder_checkpoint_path "-path" --Val_list "-path" --Silent_Lip "-path" --Silent_Face "-path" --Refence_audio "-path"
+For main setting2: 
+```Shell
+python EmoDubber_Networks/Inference_Chem_Unbatch_New_S2.py \
+    --checkpoint_path [model_dir] \
+    --vocoder_checkpoint_path [vocoder_dir] \
+    --Val_list [script_dir] \
+    --Silent_Lip [lip_dir]  \
+    --Silent_Face [face_dir] \
+    --Refence_audio [reference_dir] \
+    --Set2_list [script2_dir] \
 ```
+
+### Arguments
+- `checkpoint_path`: Path to the directory containing checkpoint files. We have provided our checkpoints. 
+- `vocoder_checkpoint_path`: Path to the vocoder that matches EmoDubber. Default in ```Vocoder_16KHz``` folder. 
+- `Val_list`: Path to txt script. 
+- `Silent_Lip`: Path to lip-motion. 
+- `Silent_Face`: Path to face feature. 
+- `Refence_audio`: Path to reference audio feature. 
+- `Set2_list`: Path to txt script of setting2, requried in `Inference_Chem_Unbatch_New_S2.py` or `Inference_GRID_Unbatch_New_S2.py`. 
 
 
 
