@@ -116,7 +116,7 @@ The links are given below:
 
 2. Run script for inference (stay in root): 
 
-For main setting1: 
+- For main setting1: 
 ```Shell
 python EmoDubber_Networks/Inference_Chem_Unbatch_New_S1.py \
     --checkpoint_path [model_dir] \
@@ -127,7 +127,7 @@ python EmoDubber_Networks/Inference_Chem_Unbatch_New_S1.py \
     --Refence_audio [reference_dir] \
 ```
 
-For main setting2: 
+- For main setting2: 
 ```Shell
 python EmoDubber_Networks/Inference_Chem_Unbatch_New_S2.py \
     --checkpoint_path [model_dir] \
