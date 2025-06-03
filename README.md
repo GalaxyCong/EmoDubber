@@ -111,7 +111,7 @@ The links are given below:
 
 # Inference
 
-1. Download EmoDubber's [16k Hz Vocoder](https://drive.google.com/file/d/1XXCSYbIEjePcWT8jNwSWeLlIQf0M-2pp/view?usp=sharing) and save it to ```Vocoder_16KHz``` folder. 
+1. Download EmoDubber's [16k Hz Vocoder](https://drive.google.com/file/d/1XXCSYbIEjePcWT8jNwSWeLlIQf0M-2pp/view?usp=sharing) and save it to ```./Vocoder_16KHz``` folder. 
 
 
 2. Run script for inference (stay in root): 
